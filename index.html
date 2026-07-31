@@ -1,0 +1,196 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EventVerse - Discover & Host Events</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="homepage.css" />
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+</head>
+<body>
+
+    <!-- =========================
+         LOADING SCREEN
+    ========================== -->
+    <div id="loader" class="loader">
+        <div class="loader-spinner"></div>
+        <p>Loading EventVerse...</p>
+    </div>
+
+
+    <!-- =========================
+          NAVBAR
+    ========================== -->
+    <nav class="navbar">
+        <div class="logo">EventVerse</div>
+
+        <!-- Hamburger -->
+        <div class="hamburger">☰</div>
+
+        <!-- Nav Links -->
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#categories">Categories</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <!-- Profile Dropdown -->
+        <div class="profile-container">
+            <button class="profile-btn">Profile</button>
+            <div class="profile-dropdown">
+                <a href="#"> Register </a>
+                <a href="#">Log In</a>
+                <a href="#"></a>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- =========================
+          HERO SECTION
+    ========================== -->
+    <header id="home" class="hero">
+        <h1 class="hero-title">Discover and Host Events Effortlessly</h1>
+        <p class="hero-subtitle">Find the best events around you or create your own in minutes.</p>
+        <a href="events.html" class="cta">Explore Events</a>
+    </header>
+
+
+    <!-- =========================
+          EVENTS SECTION
+    ========================== -->
+    <section id="events" class="events-section">
+        <h2 class="section-title">Popular Events</h2>
+
+        <div class="swiper myEventsSlider">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                    <div class="event-card hover-animate">
+                        <img src="assets/image/late-night-music.jpg" alt="Live Music Event">
+                        <h3>Live Music Night</h3>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="event-card hover-animate">
+                        <img src="assets/image/tech-conference.jpg" alt="Tech Conference">
+                        <h3>Tech Conference 2025</h3>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="event-card hover-animate">
+                        <img src="assets/image/books-exhibition.jpg" alt="Book Exhibition">
+                        <h3>Books Exhibition</h3>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="event-card hover-animate">
+                        <img src="assets/image/business.jpg" alt="Business Event">
+                        <h3>Business Meetup</h3>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- =========================
+         CATEGORIES
+    ========================== -->
+    <section id="categories" class="categories-section fade-in">
+        <h2 class="section-title">Categories</h2>
+        <div class="categories-grid">
+            <div class="category-card hover-animate">Music</div>
+            <div class="category-card hover-animate">Technology</div>
+            <div class="category-card hover-animate">College</div>
+            <div class="category-card hover-animate">Business</div>
+        </div>
+    </section>
+
+
+    <!-- =========================
+         ABOUT US
+    ========================== -->
+    <section id="about" class="about-section fade-in">
+        <h2 class="section-title">About Us</h2>
+
+        <div class="about-content">
+            <p>
+                EventVerse is a modern platform designed to make discovering and hosting events 
+                simple, fast, and enjoyable. Whether you're a creator or an explorer, our goal is 
+                to connect people through meaningful and exciting experiences.
+            </p>
+            <p>
+                From college fests to tech conferences  we bring all events under one clean, 
+                user-friendly platform. Start exploring. Start hosting. Start connecting.
+            </p>
+        </div>
+    </section>
+
+
+    <!-- =========================
+         CONTACT
+    ========================== -->
+    <section id="contact" class="contact-section fade-in">
+        <h2 class="section-title">Contact Us</h2>
+
+        <div class="contact-container">
+            
+            <form action="https://formsubmit.co/be01542f65c69d33ba629a38ea2dacb5" method="POST">
+  <div class="form-group">
+    <label>Name</label>
+    <input type="text" name="name" required>
+  </div>
+
+  <div class="form-group">
+    <label>Email</label>
+    <input type="email" name="email" required>
+  </div>
+
+  <div class="form-group">
+    <label>Message</label>
+    <textarea name="message" required></textarea>
+  </div>
+
+  <input type="hidden" name="_captcha" value="false">
+  <!-- Optional: redirect to your success page after submit
+  <input type="hidden" name="_next" value="https://yourwebsite.com/success.html">
+  -->
+
+  <button type="submit">Send Message</button>
+      </form>
+        </div>
+    </section>
+
+
+    <!-- =========================
+         BACK TO TOP
+    ========================== -->
+    <button class="back-to-top">↑</button>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+    <footer class="footer">
+        <p>© 2026 EventVerse. All Rights Reserved.</p>
+    </footer>
+
+
+    <!-- JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="homepage.js"></script>
+
+</body>
+</html>

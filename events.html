@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Events - EventVerse</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="events.css">
+
+    <!-- Swiper CSS (Optional if you use slider later) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+</head>
+<body>
+    <!-- =========================
+         LOADING SCREEN
+    ========================== -->
+    <div id="loader" class="loader">
+        <div class="loader-spinner"></div>
+        <p>Loading Events...</p>
+    </div>
+    
+<!-- =========================
+      NAVBAR
+========================= -->
+<nav class="navbar">
+    <div class="logo">EventVerse</div>
+
+    <div class="hamburger">☰</div>
+
+    <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a class="active" href="events.html">Events</a></li>
+        <li><a href="index.html#categories">Categories</a></li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+    </ul>
+
+    
+</nav>
+
+
+<!-- =========================
+       HERO (Events Page)
+========================= -->
+<header class="events-hero">
+    <h1>Explore Events</h1>
+    <p>Browse all popular, trending and upcoming events.</p>
+</header>
+
+
+<!-- =========================
+       FILTER BAR
+========================= -->
+<section class="filter-bar">
+    <select>
+        <option selected>All Categories</option>
+        <option>Music</option>
+        <option>Technology</option>
+        <option>College</option>
+        <option>Business</option>
+    </select>
+
+    <select>
+        <option selected>Location</option>
+        <option>Bengaluru</option>
+        <option>Mumbai</option>
+        <option>Delhi</option>
+    </select>
+    
+    <input type="date">
+
+    <button class="filter-btn">Apply Filters</button>
+</section>
+
+
+<!-- =========================
+        EVENTS GRID
+========================= -->
+<section class="events-list">
+    
+    <div class="event-card">
+        <img src="assets/image/late-night-music.jpg" alt="">
+        <div class="event-info">
+            <h3>Live Music Night</h3>
+            <p>Enjoy soulful music performances.</p>
+            <a href="late night music.html" class="details-btn">View Details</a>
+        </div>
+    </div>
+
+    <div class="event-card">
+        <img src="assets/image/tech-conference.jpg" alt="">
+        <div class="event-info">
+            <h3>Tech Conference 2025</h3>
+            <p>Emerging innovations & tech talks.</p>
+             <a href="example.html" class="details-btn">View Details</a>
+        </div>
+    </div>
+
+    <div class="event-card">
+        <img src="assets/image/business.jpg" alt="">
+        <div class="event-info">
+            <h3>Business Meetup</h3>
+            <p>Grow your network & business insights.</p>
+             <a href="xyz.html" class="details-btn">View Details</a> 
+        </div>
+    </div>
+
+    <div class="event-card">
+        <img src="assets/image/books-exhibition.jpg" alt="">
+        <div class="event-info">
+            <h3>Books Exhibition</h3>
+            <p>Explore rare collections & authors.</p>
+            <a href="xyz.html" class="details-btn">View Details</a>
+        </div>
+    </div>
+    
+    <div class="event-card">
+        <img src="assets/image/weekend-event.jpg" alt="weekend events">
+        <div class="event-info">
+            <h3>Weekend events</h3>
+            <p>Enjoy Weekend with your happiness.</p>
+            <a href="Weekend.html" class="details-btn">View Details</a>
+        </div>
+    </div>
+    
+    <div class="event-card">
+        <img src="assets/image/gandhi-ji.jpg" alt="">
+        <div class="event-info">
+            <h3>Gandhi Ashram </h3>
+            <p> peaceful place and nature🌿</p>
+            <a href="Gandhi Ashram.html" class="details-btn">View Details</a>
+        </div>
+    </div>
+    
+    <div class="event-card">
+        <img src="assets/image/fort.jpg" alt="">
+        <div class="event-info">
+            <h3> Bhadra Ford </h3>
+            <p> historical fort located in Ahmedabad.</p>
+            <a href="Bhadra Ford.html" class="details-btn">View Details</a>
+        </div>
+    </div>
+    
+    <div class="event-card">
+        <img src="assets/image/stepwell-2.png" alt="">
+        <div class="event-info">
+            <h3>Adaalaj Ni Vaav</h3>
+            <p> Historical stepwell in Ahmedabad.</p>
+            <a href="adaalaj stepwell.html" class="details-btn">View Details</a>
+        </div>
+    </div>
+</section>
+
+<!-- =========================
+         BACK TO TOP
+    ========================== -->
+    <button class="back-to-top">↑</button>
+
+<!-- =========================
+        FOOTER
+========================= -->
+<footer class="footer">
+    <p>© 2025 EventVerse. All Rights Reserved.</p>
+</footer>
+
+<!-- JS -->
+<script src="events.js"></script>
+
+</body>
+</html>
